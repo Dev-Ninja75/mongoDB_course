@@ -27,14 +27,16 @@ for (let i = 0; i < 1000; i++) {
 // console.log(students);
 
 // Enregistrement de mon tableau 'students' dans la collection 'students'
-// studentModel
-//   .create(students)
-//   .then((response) => {
-//     console.log(response);
-//   })
-//   .catch((error) => {
-//     console.error(error);
-//   });
+studentModel
+  .create(students)
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+console.log(students);
 
 // Aggregation => filtrer tous les étudiants de 6eme A
 // studentModel
@@ -48,7 +50,7 @@ for (let i = 0; i < 1000; i++) {
 //   .then(console.log)
 //   .catch(console.error);
 
-// Connection à MongoDB
+// Connection à MongoDB Compass
 mongoose.connect("mongodb://localhost:27017/demo", (error) => {
   if (error) {
     console.error(error); // Afficher l'erreur de MongoDB en cas de problème
