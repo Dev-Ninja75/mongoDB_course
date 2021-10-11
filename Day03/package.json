@@ -1,0 +1,15 @@
+{
+  "name": "day03",
+  "version": "1.0.0",
+  "description": "MongoDB course Mongoose Chapter 3 - Populate",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sofiane ABDEDOU",
+  "license": "ISC"
+}
